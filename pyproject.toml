@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68.0", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lyrx"
+version = "0.1.0"
+description = "Big pixel-art lyrics in your terminal, synced to Spotify"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+dependencies = [
+    "Pillow>=10.0",
+    "syncedlyrics>=1.0",
+]
+
+[project.scripts]
+lyrx = "lyrx.main:main"
+
+[tool.setuptools.package-data]
+lyrx = ["*.otf"]
