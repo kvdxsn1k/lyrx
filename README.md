@@ -3,11 +3,11 @@
 Big pixel-art lyrics in your terminal, synced to Spotify.
 
 ```
-  ████████    ████████    ██████████  ██████████  ████████
-  ██      ██  ██      ██  ██          ██          ██      ██
-  ████████    ████████    ████████    ████████    ████████
-  ██      ██  ██          ██          ██          ██
-  ████████    ██          ██████████  ██████████  ██
+██          ██      ██  ████████    ██      ██
+██          ██      ██  ██      ██    ██  ██
+██            ██████    ████████        ██
+██              ██      ██    ██      ██  ██
+██████████      ██      ██      ██  ██      ██
 ```
 
 ## Requirements
@@ -19,14 +19,22 @@ Big pixel-art lyrics in your terminal, synced to Spotify.
 
 ## Install
 
+### Arch Linux (AUR)
+
 ```bash
-pipx install lyrx
+yay -S lyrx
 ```
 
-Or with pip:
+### pipx (any distro)
 
 ```bash
-pip install lyrx
+pipx install git+https://github.com/kvdxsn1k/lyrx.git
+```
+
+### pip
+
+```bash
+pip install git+https://github.com/kvdxsn1k/lyrx.git
 ```
 
 ## Usage
