@@ -23,6 +23,8 @@ Big pixel-art lyrics in your terminal, synced to Spotify.
 
 ```bash
 yay -S lyrx
+# or
+paru -S lyrx
 ```
 
 ### pipx (any distro)
