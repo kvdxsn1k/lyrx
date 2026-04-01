@@ -56,3 +56,9 @@ lyrx --offset -0.6            # show lyrics 600ms early
 3. Splits lines into 1-2 word chunks, timed proportionally to syllable count
 4. Renders each chunk as big pixel text using a blocky pixel font + Unicode half-blocks
 5. Shows idle animations during instrumental breaks
+
+## About
+
+Made this for myself and friends to have fun with lyrics in the terminal. Anyone is welcome to use it, fork it, or do whatever you want with it.
+
+If something is broken or you have ideas — feel free to open an issue: https://github.com/kvdxsn1k/lyrx/issues
